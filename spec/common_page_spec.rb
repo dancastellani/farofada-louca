@@ -2,9 +2,7 @@
 
 require 'helper'
 
-Capybara.app_host = 'http://www.bomnegocio.com'
-
-describe 'Common Page', :type => :feature do
+describe 'Internal Page', :type => :feature do
 
   internal_page = '/rio_de_janeiro'
 
