@@ -11,7 +11,7 @@ describe 'Add Insertion Page', :type => :feature, :js => true do
       #      elem = find('#image_upload_button input')
       #require 'pry'; binding.pry
 
-    attach_file "file", '/Users/dancastellani/Pictures/test.jpg'
+    attach_file "file", './test-capybara.jpg'
     sleep 10
     #save_and_open_page
   end
