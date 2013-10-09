@@ -1,6 +1,6 @@
 # coding: utf-8
 
-require 'helper'
+require_relative 'specs_helper'
 
 describe 'Home Page - State Links', :type => :feature do
     

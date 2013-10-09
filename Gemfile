@@ -18,6 +18,6 @@ group :development do
 
 #to save  aprint of desired page with 'save_and_open_page'
  gem 'launchy', "~> 2.3.0"
- #gem 'ci_reporter'
+ gem 'ci_reporter'
 end
 

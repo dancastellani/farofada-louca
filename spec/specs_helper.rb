@@ -1,10 +1,7 @@
-# Location: spec/helper.rb
-
 require 'rubygems'
 require 'bundler'
 
 # To expport reports in Jenkins understandable format.
-#require 'ci/reporter/rake/rspec'
 
 begin
   Bundler.setup(:default, :development)

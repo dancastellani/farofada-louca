@@ -1,7 +1,6 @@
 # coding: utf-8
 
-require 'helper'
-
+require_relative 'specs_helper'
 
 describe 'Internal Page', :type => :feature do
 

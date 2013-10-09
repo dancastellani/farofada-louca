@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Home Page - State Links" tests="2" time="4.453359" failures="0" errors="0" skipped="0">
+  <testcase name="Home Page - State Links should follow link RJ to page Rio de Janeiro" time="2.367953">
+  </testcase>
+  <testcase name="Home Page - State Links should follow link SP to page São Paulo" time="2.085022">
+  </testcase>
+  <system-out>
+  </system-out>
+  <system-err>
+  </system-err>
+</testsuite>
