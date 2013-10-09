@@ -2,6 +2,7 @@
 
 require 'helper'
 
+
 describe 'Internal Page', :type => :feature do
 
   internal_page = '/rio_de_janeiro'

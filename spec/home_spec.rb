@@ -28,6 +28,22 @@ describe 'Home Page', :type => :feature do
       visit '/'
       page.should have_link('Saiba mais sobre Balcão e bomnegócio')
       page.find('a.balcao')[:title].should eq 'Saiba mais sobre Balcão e BomNegócio'
-      page.find('a.balcao')['href'].should eq 'http://www.bomnegocio.com/balcao.html'
+      click_link 'Saiba mais sobre Balcão e bomnegócio'
+      current_path.should eq '/balcao.html'
   end
+  
+  it "should go to login when clink on \'Minha Conta\'" do
+      visit '/'
+      page.should have_link('Minha Conta')
+      click_link 'Minha Conta'
+      current_path.should eq '/account/form_login'
+  end
+  
+  it "should go to customer_service when click on Ajuda" do
+      visit '/'
+      click_link 'Ajuda'
+      current_path.should eq '/customer_service.htm'
+      page.should have_content 'Como podemos te ajudar?'
+  end
+  
 end
