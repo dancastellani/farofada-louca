@@ -24,9 +24,6 @@ Capybara.run_server = false
 Capybara.default_driver = :poltergeist
 Capybara.javascript_driver = :poltergeist
 
-# dev
-#Capybara.app_host = 'http://dev03c5.srv.office:21804'
-
 # prod
 Capybara.app_host = 'http://www2.bomnegocio.com'
 
