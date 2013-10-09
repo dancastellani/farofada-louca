@@ -17,7 +17,7 @@ describe 'Home Page - State Links', :type => :feature do
     
 end
 
-=begin
+
 describe 'Home Page::Maps Links', :type => :feature do
     
     #TODO: Put the rest of the links
@@ -32,4 +32,3 @@ describe 'Home Page::Maps Links', :type => :feature do
     end
     
 end
-=end
