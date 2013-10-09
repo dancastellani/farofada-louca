@@ -2,7 +2,7 @@
 
 require 'helper'
 
-describe 'Home Page::State Links', :type => :feature do
+describe 'Home Page - State Links', :type => :feature do
     
     #TODO: Put the rest of the links
     [   { :link => "RJ", :expected_content => "Rio de Janeiro"},
