@@ -16,16 +16,16 @@ Capybara.register_driver :selenium do |app|
   #Capybara::Selenium::Driver.new(app, :browser => :chrome)
 end
 
-
 require 'capybara-screenshot'
 require 'capybara-screenshot/rspec'
 Capybara::Screenshot.register_filename_prefix_formatter(:rspec) do |example|
     "screenshot_#{example.description.gsub(' ', '-').gsub(/^.*\/spec\//,'')}"
 end
+
+Capybara.default_wait_time = 5
 Capybara.save_and_open_page_path = "temp/test-error-screenshots/"
 
 require 'capybara/poltergeist'
-
 Capybara.run_server = false
 #Capybara.default_driver = :selenium
 Capybara.default_driver = :poltergeist
