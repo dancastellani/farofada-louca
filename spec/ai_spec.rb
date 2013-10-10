@@ -1,6 +1,6 @@
 # coding: utf-8
 
-require 'specs_helper'
+require_relative 'spec_helper'
 require 'selenium-webdriver'
 require 'capybara/poltergeist'
 
