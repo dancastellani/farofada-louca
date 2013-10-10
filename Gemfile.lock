@@ -9,6 +9,9 @@ GEM
       rack (>= 1.0.0)
       rack-test (>= 0.5.4)
       xpath (~> 2.0)
+    capybara-screenshot (0.3.14)
+      capybara (>= 1.0, < 3)
+      launchy
     childprocess (0.2.8)
       ffi (~> 1.0.6)
     ci_reporter (1.9.0)
@@ -64,12 +67,13 @@ PLATFORMS
 
 DEPENDENCIES
   bundler
-  capybara
+  capybara (~> 2.1)
+  capybara-screenshot
   ci_reporter
   launchy (~> 2.3.0)
-  poltergeist
+  poltergeist (~> 1.4)
   pry
   rake
-  rspec
+  rspec (~> 2.0)
   selenium-client
   selenium-webdriver
